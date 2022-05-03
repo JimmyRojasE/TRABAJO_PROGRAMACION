@@ -1,0 +1,77 @@
+{
+    
+     "categorias":
+     [
+         {
+             "categoria_id":1,
+             "nombre_categoria":"Pinturas"
+         },
+         {
+            "categoria_id":2,
+            "nombre_categoria":"Esculturas"
+        },
+        {
+            "categoria_id":3,
+            "nombre_categoria":"Orfebrería"
+        }
+     ],
+    "Productos":
+    [
+        {
+            "id_producto":1,
+            "nombre_producto":"Vangogh",
+            "autor":"Autor: Totoy Zamudio",
+            "descripcion":"Descripcion: Es una obra en bastidor de tela que esta realizada por el artista Totoy Zamudio con acuarela, acrílico y óleo.",
+            "precio":"2990",
+            "imagen":"http://127.0.0.7:5500/imagenes/vangogh.webp",
+            "pagina":"http://127.0.0.7:5500/Paginas/totoy.html",
+            "nombre_categoria":"Pinturas"
+            
+        },
+        {
+            "id_producto":2,
+            "nombre_producto":"Angel",
+            "autor":"Auto: Miguel Ángel.",
+            "descripcion":"Descripcion: En el año 1496 fue realizada en mármol a tamaño natural.",
+            "precio":"2990",
+            "imagen":"http://127.0.0.7:5500/imagenes/angel.jpg",
+            "pagina":"http://127.0.0.7:5500/Paginas/angel.html",
+            "nombre_categoria":"Pinturas"
+            
+        },
+        {
+            "id_producto":3,
+            "nombre_producto":"Anime",
+            "autor":"Autor: Leandro Plaza",
+            "descripcion":"Descripcion: Cuadro hecho de manera instantanea.",
+            "precio":"2990",
+            "imagen":"http://127.0.0.7:5500/imagenes/anime.jpg",
+            "pagina":"http://127.0.0.7:5500/Paginas/anime.html",
+            "nombre_categoria":"Pinturas"
+            
+        },
+        {
+            "id_producto":4,
+            "nombre_producto":"Niño de los pajaros",
+            "autor":"Autor: Matias Vergara",
+            "descripcion":"Descripcion: Dedicada a niño de la epoca antigua.",
+            "precio":"2990",
+            "imagen":"http://127.0.0.7:5500/imagenes/niño_pajaro.jpg",
+            "pagina":"http://127.0.0.7:5500/Paginas/niño_pajaro.html",
+            "nombre_categoria":"Pinturas"
+            
+        },
+        {
+            "id_producto":5,
+            "nombre_producto":"Totoy",
+            "autor":"Autor: Totoy Zamudio",
+            "descripcion":"Descripcion: Es una obra en bastidor de tela que esta realizada por el artista Totoy Zamudio con acuarela, acrílico y óleo.",
+            "precio":"2990",
+            "imagen":"http://127.0.0.7:5500/imagenes/Totoy.jpg",
+            "pagina":"http://127.0.0.7:5500/Paginas/totoy.html",
+            "nombre_categoria":"Pinturas"
+            
+        }
+       
+    ]
+}
