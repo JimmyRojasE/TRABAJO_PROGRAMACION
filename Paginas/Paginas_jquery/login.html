@@ -68,8 +68,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="btn btn-primary btn-block login-button mt-2" onclick="enviarInformacion()">
-                                Login</button>
+                            <button  id="btnLogin" class="btn btn-primary btn-block login-button mt-2" onclick="enviarInformacion()">Login</button>
                             <div class="checkbox login-options mt-2">
                                 <label><input type="checkbox" /> Recuerdame</label>
                                 <a href="#" class="login-forgot">¿Olvido su Usuario o Contraseña?</a>
@@ -146,10 +145,10 @@
             let mensaje = "";
 
             if (user == '') {
-                mensaje += "Favor Ingrese un valor en el usuario <br>";
+                mensaje += "Falta Información en el usuario <br>";
             }
             if (pw == '') {
-                mensaje += "Favor Ingrese un valor en la contraseña <br>";
+                mensaje += "Falta Información en la contraseña <br>";
             }
 
             if (mensaje != '') {
@@ -157,6 +156,7 @@
                 $("#texto_error").html(mensaje);
             } else {
                 $("#msj_error").hide();
+                window.open("http://127.0.0.7:5500/vista_login/vista_index.html")
 
                 //peticiones ajax
             }
@@ -180,19 +180,19 @@
             let mensaje = "";
 
             if (nombre2 == '') {
-                mensaje += "Favor Ingrese un valor en el Usuario <br>";
+                mensaje += "Falta Información en el Usuario <br>";
             }
             if (mail1 == '') {
-                mensaje += "Favor Ingrese un valor en el Email <br>";
+                mensaje += "Falta Información en el Email <br>";
             }
             if (mail2 == '') {
-                mensaje += "Favor Ingrese un valor en la confirmacion de email <br>";
+                mensaje += "Falta Información en la confirmacion de email <br>";
             }
             if (contraseña1 == '') {
-                mensaje += "Favor Ingrese un valor en la contraseña";
+                mensaje += "Falta Información en la contraseña <br>";
             }
             if (contraseña2 == '') {
-                mensaje += "Favor Ingrese un valor en recuperar contraseña";
+                mensaje += "Falta Información en recuperar contraseña";
             }
 
             if (mensaje != '') {
