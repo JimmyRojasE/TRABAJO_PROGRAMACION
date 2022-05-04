@@ -102,7 +102,7 @@ tamañobox {
 
 
 .forma-login{width:1000px;}
-.titulo-login{font-family: 'Exo', sans-serif;text-align:center;color: rgb(0, 0, 0);}
+.titulo-login{font-family: 'Exo', sans-serif;text-align:center;color: rgb(255, 255, 255);}
 .login-userinput{margin-bottom: 10px;}
 .boton-registro{margin-top:10px;}
 .login-options{margin-bottom:0px;}
@@ -110,3 +110,20 @@ tamañobox {
 
 
 
+.card-body1{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.letraform{
+    color: white;
+}
+
+#boton{
+    background: #31384a;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
