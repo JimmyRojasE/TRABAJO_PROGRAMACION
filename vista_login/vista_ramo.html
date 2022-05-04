@@ -62,43 +62,53 @@
             </ul>
         </div>
     </nav>
+    <div class="container mt-4">
+        <div id="card_jquery2" class="row"> </div>
+</div>
+<!-- Optional JavaScript; choose one of the two! -->
 
-    <div class="container-fluid">
-        <div class="row mt-3">
-            <div class="col-md-5 ">
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+<script>
+    $.get('http://127.0.0.7:5500/Paginas/Paginas_jquery/galeria_json.json',
+    function(resultado){
+        let contenido=
+            `<div class="col-md-5 ">
                 <div class="card colorangel">
-                    <a href="#"><img src="../imagenes/Totoy.jpg" class="card-img-top altoimgangel w-100" alt="..."></a>
+                    <img src=${resultado.Productos[11].imagen} class="card-img-top altoimgangel w-100"    alt="">
                 </div>
             </div>
             <div class="col-md-7">
                 <div class="card">
-                    <div class="card-body">
-                        <h1>Totoy</h1>
-                        <h4>Autor: Totoy Zamudio</h4>
-                        <h4>Descripcion: Es una obra en bastidor de tela que esta realizada por el artista Totoy Zamudio
-                            con acuarela, acrílico y óleo.</h4>
-                        <h4>Valor: $1.159.990.-</h4>
+                    <div class="card-header" >
+                        <h1>${resultado.Productos[11].nombre_producto}</h1>
+                    </div>
+                    <div class="card-body">                           
+                        <div class="card-text text-justify"><h4>${resultado.Productos[11].autor}</h4></div>
+                        <div class="card-text text-justify"><h4>${resultado.Productos[11].descripcion}</h4></div>
+                        <div class="card-text text-justify"><h4>${resultado.Productos[11].precio}</h4></div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- Optional JavaScript; choose one of the two! -->
+            `;
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-        crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-    -->
+    $("#card_jquery2").html(contenido)
+    }
+    );
+</script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+-->
 </body>
 
 </html>
