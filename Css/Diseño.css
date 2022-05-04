@@ -30,10 +30,11 @@
 
 body {
     background-image: url(https://www.xtrafondos.com/wallpapers/camion-abandonado-y-atardecer-arte-digital-7552.jpg);
-    background-size: cover;
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    margin: 0;
     }
 
 
@@ -106,4 +107,6 @@ tamañobox {
 .boton-registro{margin-top:10px;}
 .login-options{margin-bottom:0px;}
 .login-forgot{float: right;} 
+
+
 
