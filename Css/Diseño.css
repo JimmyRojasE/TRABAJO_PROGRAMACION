@@ -96,8 +96,15 @@ tamañobox {
 
 }
 
-.colorletratit{
-    color: rgb(244, 243, 243);
+.colorletratit{ 
+    font-style: italic;
+    
+
+    color: rgb(247, 247, 247);
+}
+.card_body_index{
+    border: 0px;
+    
 }
 
 

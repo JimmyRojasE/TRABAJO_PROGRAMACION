@@ -19,113 +19,147 @@
      ],
     "Productos":
     [
-        {
+       {
             "id_producto":1,
-            "nombre_producto":"Vangogh",
-            "autor":"Autor: Totoy Zamudio",
-            "descripcion":"Descripcion: Es una obra en bastidor de tela que esta realizada por el artista Totoy Zamudio con acuarela, acrílico y óleo.",
-            "precio":"2990",
-            "imagen":"http://127.0.0.7:5500/imagenes/vangogh.webp",
-            "pagina":"http://127.0.0.7:5500/Paginas/vangogh.html",
-            "nombre_categoria":"Pinturas"
+            "nombre_producto":"Angel",
+            "autor":"Auto: Miguel Ángel.",
+            "descripcion":"Descripción: En el año 1496 fue realizada en mármol a tamaño natural.",
+            "precio":"Precio: $4.990.990",
+            "imagen":"http://127.0.0.7:5500/imagenes/angel.jpg",
+            "pagina":"http://127.0.0.7:5500/Paginas/angel.html",
+            "pagina_login":"http://127.0.0.7:5500/vista_login/vista_angel.html",
+            "nombre_categoria":"Escultura"
             
         },
         {
             "id_producto":2,
-            "nombre_producto":"Angel",
-            "autor":"Auto: Miguel Ángel.",
-            "descripcion":"Descripcion: En el año 1496 fue realizada en mármol a tamaño natural.",
-            "precio":"2990",
-            "imagen":"http://127.0.0.7:5500/imagenes/angel.jpg",
-            "pagina":"http://127.0.0.7:5500/Paginas/angel.html",
+            "nombre_producto":"Anime",
+            "autor":"Autor: Leandro Plaza",
+            "descripcion":"Descripción: Cuadro hecho de manera instantanea.",
+            "precio":"Precio: $1.159.990.-",
+            "imagen":"http://127.0.0.7:5500/imagenes/anime.jpg",
+            "pagina":"http://127.0.0.7:5500/Paginas/anime.html",
+            "pagina_login":"http://127.0.0.7:5500/vista_login/vista_anime.html",
             "nombre_categoria":"Pinturas"
             
         },
         {
             "id_producto":3,
-            "nombre_producto":"Anime",
-            "autor":"Autor: Leandro Plaza",
-            "descripcion":"Descripcion: Cuadro hecho de manera instantanea.",
-            "precio":"2990",
-            "imagen":"http://127.0.0.7:5500/imagenes/anime.jpg",
-            "pagina":"http://127.0.0.7:5500/Paginas/anime.html",
-            "nombre_categoria":"Pinturas"
+            "nombre_producto":"Joyas",
+            "autor":"Autor: Joselinni Saldias",
+            "descripcion":"Descripción: Joyas hechas de manera dedicada.",
+            "precio":"Precio: $1.159.990.-",
+            "imagen":"http://127.0.0.7:5500/imagenes/joyas2.png",
+            "pagina":"http://127.0.0.7:5500/Paginas/joyas.html",
+            "pagina_login":"http://127.0.0.7:5500/vista_login/vista_joyas.html",
+            "nombre_categoria":"Orfebrería"
             
         },
         {
             "id_producto":4,
             "nombre_producto":"Niño de los pajaros",
             "autor":"Autor: Matias Vergara",
-            "descripcion":"Descripcion: Dedicada a niño de la epoca antigua.",
-            "precio":"2990",
+            "descripcion":"Descripción: Dedicada a niño de la epoca antigua.",
+            "precio":"Precio: $1.159.990.-",
             "imagen":"http://127.0.0.7:5500/imagenes/niño_pajaro.jpg",
             "pagina":"http://127.0.0.7:5500/Paginas/niño_pajaro.html",
-            "nombre_categoria":"Pinturas"
+            "pagina_login":"http://127.0.0.7:5500/vista_login/vista_npajaro.html",
+            "nombre_categoria":"Escultura"
             
         },
         {
             "id_producto":5,
-            "nombre_producto":"Totoy",
-            "autor":"Autor: Totoy Zamudio",
-            "descripcion":"Descripcion: Es una obra en bastidor de tela que esta realizada por el artista Totoy Zamudio con acuarela, acrílico y óleo.",
-            "precio":"2990",
-            "imagen":"http://127.0.0.7:5500/imagenes/Totoy.jpg",
-            "pagina":"http://127.0.0.7:5500/Paginas/totoy.html",
+            "nombre_producto":"Panteón",
+            "autor":"Autor: Agasio de Éfeso",
+            "descripcion":"Descripción: Denominación histográfica de una escultura de mármol de tamaño natural",
+            "precio":"Precio: $1.159.990.-",
+            "imagen":"http://127.0.0.7:5500/imagenes/Panteon.jpg",
+            "pagina":"http://127.0.0.7:5500/Paginas/Panteon.html",
+            "pagina_login":"http://127.0.0.7:5500/vista_login/vista_panteon.html",
             "nombre_categoria":"Pinturas"
             
         },
         {
             "id_producto":6,
-            "nombre_producto":"La Noche Estrellada",
-            "autor":"Autor: Van Gogh",
-            "descripcion":"Descripcion: Pocos días despues de acabar esta pintura, un 27 de Julio de 1890, Vincent salió a un campo similar a este y se disparó un tiro en el estómago",
-            "precio":"1000000",
-            "imagen":"http://127.0.0.7:5500/imagenes/vangogh.webp",
-            "pagina":"http://127.0.0.7:5500/Paginas/Vangogh.html",
+            "nombre_producto":"Pokemon",
+            "autor":"Autor: Emilia Mendez",
+            "descripcion":"Descripción: Tejido a mano dedicado",
+            "precio":"Precio: $30.000.-",
+            "imagen":"http://127.0.0.7:5500/imagenes/pokemon2.jpg",
+            "pagina":"http://127.0.0.7:5500/Paginas/pokemones.html",
+            "pagina_login":"http://127.0.0.7:5500/vista_login/vista_pokemones.html",
             "nombre_categoria":"Pinturas"
             
         },
         {
             "id_producto":7,
-            "nombre_producto":"Concepcion balmes",
-            "autor":"Autor: CONCEPCIÓN BALMES",
-            "descripcion":"Descripcion: Pintura hecha instantaneamente el año 2022.",
-            "precio":"2990",
-            "imagen":"http://127.0.0.7:5500/imagenes/balmes.webp",
+            "nombre_producto":"Totoy",
+            "autor":"Autor: Totoy Zamudio",
+            "descripcion":"Descripción: Es una obra en bastidor de tela que esta realizada por el artista Totoy Zamudio con acuarela, acrílico y óleo.",
+            "precio":"Precio: $1.159.990.-",
+            "imagen":"http://127.0.0.7:5500/imagenes/Totoy.jpg",
             "pagina":"http://127.0.0.7:5500/Paginas/totoy.html",
+            "pagina_login":"http://127.0.0.7:5500/vista_login/vista_totoy.html",
             "nombre_categoria":"Pinturas"
             
         },
         {
             "id_producto":8,
-            "nombre_producto":"Felipe Castro",
-            "autor":"Autor: Felipe Castro",
-            "descripcion":"Descripcion:Hecha por un reciente y novedoso artista trabajado en digital",
-            "precio":"28990",
-            "imagen":"http://127.0.0.7:5500/imagenes/Totoy.jpg",
-            "pagina":"http://127.0.0.7:5500/Paginas/totoy.html",
+            "nombre_producto":"La Noche Estrellada",
+            "autor":"Autor: Van Gogh",
+            "descripcion":"Descripción: Pocos días despues de acabar esta pintura, un 27 de Julio de 1890, Vincent salió a un campo similar a este y se disparó un tiro en el estómago.",
+            "precio":"Precio: $10.000.000.-",
+            "imagen":"http://127.0.0.7:5500/imagenes/vangogh.webp",
+            "pagina":"http://127.0.0.7:5500/Paginas/Vangogh.html",
+            "pagina_login":"http://127.0.0.7:5500/vista_login/vista_vangogh.html",
             "nombre_categoria":"Pinturas"
             
         },
         {
             "id_producto":9,
-            "nombre_producto":"Nadadora",
-            "autor":"Autor: Carmen Aldunate",
-            "descripcion":"Descripcion:Pintuda realizada de oleo encima de tela.",
-            "precio":"4990",
-            "imagen":"http://127.0.0.7:5500/imagenes/nadadora.jpg",
-            "pagina":"http://127.0.0.7:5500/Paginas/nadadora.html",
+            "nombre_producto":"Concepción balmes",
+            "autor":"Autor: CONCEPCIÓN BALMES",
+            "descripcion":"Descripción: Pintura hecha instantaneamente el año 2022.",
+            "precio":"Precio: $2.999.990",
+            "imagen":"http://127.0.0.7:5500/imagenes/balmes.webp",
+            "pagina":"http://127.0.0.7:5500/Paginas/balmes.html",
+            "pagina_login":"http://127.0.0.7:5500/vista_login/vista_balmes.html",
             "nombre_categoria":"Pinturas"
             
         },
         {
             "id_producto":10,
+            "nombre_producto":"Felipe Castro",
+            "autor":"Autor: Felipe Castro",
+            "descripcion":"Descripción: Hecha por un reciente y novedoso artista trabajado en digital",
+            "precio":"Precio: $1.159.990.-",
+            "imagen":"http://127.0.0.7:5500/imagenes/felipecastro.webp",
+            "pagina":"http://127.0.0.7:5500/Paginas/felipecastro.html",
+            "pagina_login":"http://127.0.0.7:5500/vista_login/vista_felipecastro.html",
+            "nombre_categoria":"Pinturas"
+            
+        },
+        {
+            "id_producto":11,
+            "nombre_producto":"Nadadora",
+            "autor":"Autor: Carmen Aldunate",
+            "descripcion":"Descripción: Pintura realizada de oleo encima de tela.",
+            "precio":"Precio: $1.159.990.-",
+            "imagen":"http://127.0.0.7:5500/imagenes/nadadora.jpg",
+            "pagina":"http://127.0.0.7:5500/Paginas/nadadora.html",
+            "pagina_login":"http://127.0.0.7:5500/vista_login/vista_nadadora.html",
+            "nombre_categoria":"Pinturas"
+            
+        },
+        {
+            "id_producto":12,
             "nombre_producto":"Ramo",
             "autor":"Autor: CONCEPCION BALMES",
-            "descripcion":"Descripcion:Pintura hecha en grabado intervenido y fue hecha en 2022.",
-            "precio":"20990",
+            "descripcion":"Descripción:Pintura hecha en grabado intervenido y fue hecha en 2022.",
+            "precio":"Precio: $1.159.990.-",
             "imagen":"http://127.0.0.7:5500/imagenes/ramo.webp",
-            "pagina":"http://127.0.0.7:5500/Paginas/acept1.html",
+            "pagina":"http://127.0.0.7:5500/Paginas/ramo.html",
+            "pagina_login":"http://127.0.0.7:5500/vista_login/vista_ramo.html",
             "nombre_categoria":"Pinturas"
             
         }
