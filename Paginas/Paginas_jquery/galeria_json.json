@@ -1,5 +1,7 @@
-{
+
     
+   
+{
      "categorias":
      [
          {
@@ -24,7 +26,7 @@
             "descripcion":"Descripcion: Es una obra en bastidor de tela que esta realizada por el artista Totoy Zamudio con acuarela, acrílico y óleo.",
             "precio":"2990",
             "imagen":"http://127.0.0.7:5500/imagenes/vangogh.webp",
-            "pagina":"http://127.0.0.7:5500/Paginas/totoy.html",
+            "pagina":"http://127.0.0.7:5500/Paginas/vangogh.html",
             "nombre_categoria":"Pinturas"
             
         },
@@ -69,6 +71,61 @@
             "precio":"2990",
             "imagen":"http://127.0.0.7:5500/imagenes/Totoy.jpg",
             "pagina":"http://127.0.0.7:5500/Paginas/totoy.html",
+            "nombre_categoria":"Pinturas"
+            
+        },
+        {
+            "id_producto":6,
+            "nombre_producto":"La Noche Estrellada",
+            "autor":"Autor: Van Gogh",
+            "descripcion":"Descripcion: Pocos días despues de acabar esta pintura, un 27 de Julio de 1890, Vincent salió a un campo similar a este y se disparó un tiro en el estómago",
+            "precio":"1000000",
+            "imagen":"http://127.0.0.7:5500/imagenes/vangogh.webp",
+            "pagina":"http://127.0.0.7:5500/Paginas/Vangogh.html",
+            "nombre_categoria":"Pinturas"
+            
+        },
+        {
+            "id_producto":7,
+            "nombre_producto":"Concepcion balmes",
+            "autor":"Autor: CONCEPCIÓN BALMES",
+            "descripcion":"Descripcion: Pintura hecha instantaneamente el año 2022.",
+            "precio":"2990",
+            "imagen":"http://127.0.0.7:5500/imagenes/balmes.webp",
+            "pagina":"http://127.0.0.7:5500/Paginas/totoy.html",
+            "nombre_categoria":"Pinturas"
+            
+        },
+        {
+            "id_producto":8,
+            "nombre_producto":"Felipe Castro",
+            "autor":"Autor: Felipe Castro",
+            "descripcion":"Descripcion:Hecha por un reciente y novedoso artista trabajado en digital",
+            "precio":"28990",
+            "imagen":"http://127.0.0.7:5500/imagenes/Totoy.jpg",
+            "pagina":"http://127.0.0.7:5500/Paginas/totoy.html",
+            "nombre_categoria":"Pinturas"
+            
+        },
+        {
+            "id_producto":9,
+            "nombre_producto":"Nadadora",
+            "autor":"Autor: Carmen Aldunate",
+            "descripcion":"Descripcion:Pintuda realizada de oleo encima de tela.",
+            "precio":"4990",
+            "imagen":"http://127.0.0.7:5500/imagenes/nadadora.jpg",
+            "pagina":"http://127.0.0.7:5500/Paginas/nadadora.html",
+            "nombre_categoria":"Pinturas"
+            
+        },
+        {
+            "id_producto":10,
+            "nombre_producto":"Ramo",
+            "autor":"Autor: CONCEPCION BALMES",
+            "descripcion":"Descripcion:Pintura hecha en grabado intervenido y fue hecha en 2022.",
+            "precio":"20990",
+            "imagen":"http://127.0.0.7:5500/imagenes/ramo.webp",
+            "pagina":"http://127.0.0.7:5500/Paginas/acept1.html",
             "nombre_categoria":"Pinturas"
             
         }

@@ -11,7 +11,7 @@
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
   <link rel="stylesheet" href="../../Css/Diseño.css">
-  <link rel="icon" href="../../imagenes/logo.png">
+  
   <title>Galeria</title>
 </head>
 
@@ -51,19 +51,7 @@
 
   <div class="container">
     <div class="row mt-3 " id="cardjquery">
-      <!-- <div class="col-md-3">
-        <div class="card">
-          <img src="../imagenes/angel.jpg" class="card-img-top galeriaimg" alt="..." style="width:253px; height:200px;">
-          <div class="card-body">
-            <h5 class="card-title">Angel </h5>
-            <p class="card-text">Auto: Miguel Ángel.</p>
-            <p class="card-text">Descripcion: En el año 1496 fue realizada en mármol a tamaño natural.</p>
-            <a href="../Paginas/Angel.html" class="btn btn-primary">VER PRODUCTO</a>
-          </div>
-        </div>
-      </div>
-    -->
-      
+    
 
 
    </div>
@@ -75,30 +63,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
     crossorigin="anonymous"></script>
+    <script src="/Jquery/jquery_galeria.js"> </script>
 
-    <script>
-      $.get('http://127.0.0.7:5500/Paginas/Paginas_jquery/galeria_json.json',
-      function(resultado){
-        let contenido=''
-        for (let i = 0; i <resultado.Productos.length;i++){
-          contenido +=
-          `<div class="col-md-3 mt-3">
-                <div class="card ">
-                  <img src=${resultado.Productos[i].imagen} alt="..." style="width:253px; height:200px;">
-                    <div class="card-body">
-                    <h5 class="card-title">${resultado.Productos[i].nombre_producto}</h5>
-                    <p class="card-text">${resultado.Productos[i].autor}</p>
-                    <p class="card-text">${resultado.Productos[i].descripcion}</p>
-                  <a href=${resultado.Productos[i].pagina} class="btn btn-primary">VER PRODUCTO</a>
-                </div>
-              </div>
-            </div>
-          `;
-        }
-        $("#cardjquery").html(contenido)
-      }
-      );
-    </script>
+  
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--

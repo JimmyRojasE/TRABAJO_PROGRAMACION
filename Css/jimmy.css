@@ -4,7 +4,14 @@
     background-color: white;
 
 }
+.formulario_contacto{
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    border: 3px;
+    
 
+}
 .h1_ {
     text-align: center;
 }
