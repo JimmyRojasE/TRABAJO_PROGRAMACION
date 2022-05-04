@@ -17,17 +17,19 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark n ">
-        <a class="navbar-brand " href="../index2.html">
-            <img src="../../imagenes/logo.png" style=" width: 30px;  height: 30px;" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <form class="form-inline">
+            <a class="navbar-brand " href="../index2.html">
+                <img src="../../imagenes/logo.png" style=" width: 30px;  height: 30px;" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </form>
 
         <div class="collapse navbar-collapse " id="navbarNav">
             <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
             <ul class="navbar-nav ml-auto ">
@@ -74,6 +76,15 @@
                                 <input type="text" class="form-control" id="precioObra"
                                     placeholder="Ingrese Precio de la Obra">
                             </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form name="subida-imagenes" type="POST" enctype="multipart/formdata" >
+                                        <input type="file" name="imagen1" />
+                                        <input type="submit" name="subir-imagen" value="Enviar imagen" />
+                                    </form>
+                                </div>
+                            </div>
+
                             <div id="msj_error3" class="row mt-2">
                                 <div class="col-md-12">
                                     <div id="texto_error3" class="alert alert-danger">
