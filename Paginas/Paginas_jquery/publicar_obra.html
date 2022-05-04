@@ -53,33 +53,33 @@
         <div class="row">
             <div class="col-md-12">
 
-                <div class="card">
+                <div class="card card-body1">
                     <div class="card-body">
-                        <h2 class="titulo-login">PUBLICAR OBRA</h2>
+                        <h2  class="titulo-login">PUBLICAR OBRA</h2>
                         <form class="formulario">
                             <div class="form-group">
-                                <label for="text1">Nombre de la Obra: </label>
+                                <label for="text1" class="letraform">Nombre de la Obra: </label>
                                 <input type="text" class="form-control" id="nombreObra"
                                     placeholder="Ingrese Nombre de la Obra">
                             </div>
                             <div class="form-group">
-                                <label for="textAreaComentario">Historia de la obra: </label>
+                                <label for="textAreaComentario" class="letraform">Historia de la obra: </label>
                                 <textarea class="form-control" rows="4" id="areaComentario"></textarea>
                             </div>
                             <div class="form-group">
-                                <label for="text1">Descripcion de la Obra: </label>
+                                <label for="text1" class="letraform">Descripcion de la Obra: </label>
                                 <input type="text" class="form-control" id="descObra"
                                     placeholder="Ingrese Descripcion de la Obra">
                             </div>
                             <div class="form-group">
-                                <label for="text1">Precio de la Obra: </label>
+                                <label for="text1" class="letraform">Precio de la Obra: </label>
                                 <input type="text" class="form-control" id="precioObra"
                                     placeholder="Ingrese Precio de la Obra">
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <form name="subida-imagenes" type="POST" enctype="multipart/formdata" >
-                                        <input type="file" name="imagen1" />
+                                        <input type="file" name="imagen1" class="letraform"/>
                                     </form>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="btn btn-primary btn-block login-button mt-2" onclick="enviarObra()">
+                            <button id="boton" class="btn btn-primary btn-block login-button mt-2" onclick="enviarObra()">
                                 Enviar Obra</button>
 
                         </form>
