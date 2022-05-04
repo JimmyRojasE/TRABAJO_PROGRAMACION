@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../../Css/Diseño.css">
-    <link rel="icon" href="../../imagenes/logo.png">
-    <title>Publicar Obra</title>
+<link rel="stylesheet" href="../../Css/Diseño.css">
+<link rel="icon" href="../../imagenes/logo.png">
+<title>Contactanos</title>
 </head>
 
 <body>
@@ -39,75 +37,67 @@
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                             <a href="#"><button class="dropdown-item" type="button">Perfil</button></a>
-                            <a href="../vista_login/obras.html"><button class="dropdown-item"
+                            <a href="../../vista_login/obras.html"><button class="dropdown-item"
                                     type="button">Obras</button></a>
-                            <a href="../vista_login/Actividad_sistema.html"><button class="dropdown-item"
+                            <a href="../../vista_login/Actividad_sistema.html"><button class="dropdown-item"
                                     type="button">Actividad Sistema</button></a>
-                            <a href="../vista_login/publicar_obra.html"><button class="dropdown-item"
+                            <a href="../../vista_login/publicar_obra.html"><button class="dropdown-item"
                                     type="button">Publicar Obras</button></a>
-                            <a href="../index2.html"><button class="dropdown-item" type="button">Cerrar
+                            <a href="../../index2.html"><button class="dropdown-item" type="button">Cerrar
                                     Sesion</button></a>
                         </div>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navcolor" href="../vista_login/vista_galeria.html">EXHIBICION</a>
+                    <a class="nav-link navcolor" href="../../vista_login/vista_galeria.html">EXHIBICION</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navcolor" href="../vista_login/vista_index.html">INICIO <span
+                    <a class="nav-link navcolor" href="../../vista_login/vista_index.html">INICIO <span
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item navcolor">
-                    <a class="nav-link navcolor" href="../vista_login/vista_contactenos.html">CONTÁCTENOS</a>
+                    <a class="nav-link navcolor" href="../../vista_login/vista_contactenos.html">CONTÁCTENOS</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <!-- formulario -->
+
     <div class="container mt-md-3">
         <div class="row">
             <div class="col-md-12">
 
                 <div class="card card-body1">
                     <div class="card-body">
-                        <h2  class="titulo-login">PUBLICAR OBRA</h2>
+                        <h2  class="titulo-login">FORMULARIO DE CONTACTO</h2>
                         <form class="formulario">
                             <div class="form-group">
-                                <label for="text1" class="letraform">Nombre de la Obra: </label>
-                                <input type="text" class="form-control" id="nombreObra"
-                                    placeholder="Ingrese Nombre de la Obra">
+                                <label for="nombreCont" class="letraform">Nombre: </label>
+                                <input type="text" class="form-control" id="nombreCont"
+                                    placeholder="Ingrese su Nombre">
                             </div>
                             <div class="form-group">
-                                <label for="textAreaComentario" class="letraform">Historia de la obra: </label>
-                                <textarea class="form-control" rows="4" id="areaComentario"></textarea>
+                                <label for="correoCont" class="letraform">Correo: </label>
+                                <input type="text" class="form-control" id="correoCont"
+                                    placeholder="Ingrese Correo">
                             </div>
                             <div class="form-group">
-                                <label for="text1" class="letraform">Descripcion de la Obra: </label>
-                                <input type="text" class="form-control" id="descObra"
-                                    placeholder="Ingrese Descripcion de la Obra">
+                                <label for="telCont" class="letraform">Telefono: </label>
+                                <input type="text" class="form-control" id="telCont"
+                                    placeholder="Ingrese numero de telefono">
                             </div>
                             <div class="form-group">
-                                <label for="text1" class="letraform">Precio de la Obra: </label>
-                                <input type="text" class="form-control" id="precioObra"
-                                    placeholder="Ingrese Precio de la Obra">
+                                <label for="comCont" class="letraform">Comentario: </label>
+                                <textarea class="form-control" rows="4" id="comCont" placeholder="Ingrese un Comentario"></textarea>
                             </div>
-                            <div class="row">
+                            <div id="msj_error5" class="row mt-2">
                                 <div class="col-md-12">
-                                    <form name="subida-imagenes" type="POST" enctype="multipart/formdata" >
-                                        <input type="file" name="imagen1" class="letraform"/>
-                                    </form>
-                                </div>
-                            </div>
-
-                            <div id="msj_error3" class="row mt-2">
-                                <div class="col-md-12">
-                                    <div id="texto_error3" class="alert alert-danger">
+                                    <div id="texto_error5" class="alert alert-danger">
 
                                     </div>
                                 </div>
                             </div>
-                            <button id="boton" class="btn btn-primary btn-block login-button mt-2" onclick="enviarObra()">
-                                Enviar Obra</button>
+                            <button id="boton" class="btn btn-primary btn-block login-button mt-2" onclick="contactenos()">
+                                Enviar Contacto</button>
 
                         </form>
                     </div>
@@ -118,10 +108,6 @@
     </div>
 
 
-
-
-
-
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
@@ -130,8 +116,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
+    <script src="../../Jquery/jquery_contactenos.js"></script>
 
-    <script src="../../Jquery/jquery_pobra.js"></script>
 
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
@@ -140,6 +126,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
     -->
+    
 </body>
-
 </html>
