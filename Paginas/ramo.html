@@ -61,29 +61,29 @@
     <script>
         $.get('http://127.0.0.7:5500/Paginas/Paginas_jquery/galeria_json.json',
         function(resultado){
-                let contenido=
+            let contenido=
                 `<div class="col-md-5 ">
                     <div class="card colorangel">
-                        <img src=${resultado.Productos[1].imagen} class="card-img-top altoimgangel w-100"    alt="">
+                        <img src=${resultado.Productos[11].imagen} class="card-img-top altoimgangel w-100"    alt="">
                     </div>
                 </div>
                 <div class="col-md-7">
                     <div class="card">
                         <div class="card-header" >
-                            <h1>${resultado.Productos[1].nombre_producto}</h1>
+                            <h1>${resultado.Productos[11].nombre_producto}</h1>
                         </div>
                         <div class="card-body">                           
-                            <div class="card-text text-justify"><h4>${resultado.Productos[1].autor}</h4></div>
-                            <div class="card-text text-justify"><h4>${resultado.Productos[1].descripcion}</h4></div>
-                            <div class="card-text text-justify"><h4>${resultado.Productos[1].precio}</h4></div>
+                            <div class="card-text text-justify"><h4>${resultado.Productos[11].autor}</h4></div>
+                            <div class="card-text text-justify"><h4>${resultado.Productos[11].descripcion}</h4></div>
+                            <div class="card-text text-justify"><h4>${resultado.Productos[11].precio}</h4></div>
                         </div>
                     </div>
                 </div>
                 `;
   
   
-                $("#card_jquery2").html(contenido)
-            }
+        $("#card_jquery2").html(contenido)
+        }
         );
     </script>
 
